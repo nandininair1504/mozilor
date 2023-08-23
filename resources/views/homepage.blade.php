@@ -15,9 +15,12 @@
   @endguest
 
   @auth
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light float-right">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
           <div class="navbar-nav">
+            <a class="nav-item nav-link"><b>Welcome {{ $user->name}},</b></a>
             <a class="nav-item nav-link" href="{{ route('products.import') }}">Import Products</a>
             <a class="nav-item nav-link" href="{{ route('logout') }}">Logout</a>
           </div>

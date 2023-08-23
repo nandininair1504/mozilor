@@ -10,11 +10,17 @@ use Session;
 
 class AuthController extends Controller
 {
+    /**
+     * Login Form
+     */
     public function showLogin()
     {
         return view('auth.login');
     }
 
+    /**
+     * Login Functionality
+     */
     public function login(Request $request)
     {
         $inputs = $request->all();
@@ -41,11 +47,17 @@ class AuthController extends Controller
         }
     }
 
+    /**
+     * Registration Form
+     */
     public function showRegister()
     {
         return view('auth.registration');
     }
 
+    /**
+     * Registration functionality
+     */
     public function register(Request $request)
     {
         $inputs = $request->all();
@@ -73,6 +85,9 @@ class AuthController extends Controller
 
     }
 
+    /**
+     * Logout
+     */
     public function logout() {
 
         Session::flush();

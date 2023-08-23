@@ -11,6 +11,9 @@ use Validator;
 
 class ProductController extends BaseController
 {
+    /**
+     * Import products API
+     */
     public function import(Request $request)
     {
         $validator = Validator::make($request->all(), [
