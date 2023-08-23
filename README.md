@@ -11,13 +11,13 @@ Pages for the following features
 - Login
 - Sign up
 - Products Import
-
-Database name : mozilor
+  
 (Save a copy of .env.example and rename it as .env to make the DB configurations) 
 
 After taking the pull, please run the following commands
+- composer install 
 - php artisan migrate
-- composer install (package used for csv import is maatwebsite/excel)
+- php artisan key:generate
 
 Project URL : http://localhost/html/mozilor/public/
 
