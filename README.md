@@ -20,6 +20,7 @@ After taking the pull, please run the following commands
 - php artisan key:generate
 
 Project URL : http://localhost/html/mozilor/public/
+Sample CSV : https://github.com/nandininair1504/mozilor/blob/master/sample.csv
 
 
 
