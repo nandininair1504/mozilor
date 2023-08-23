@@ -13,6 +13,7 @@ Pages for the following features
 - Products Import
 
 Database name : mozilor
+(Save a copy of .env.example and rename it as .env to make the DB configurations) 
 
 After taking the pull, please run the following commands
 - php artisan migrate
