@@ -18,6 +18,9 @@ After taking the pull, please run the following commands
 - php artisan migrate
 - composer install
 
+Project URL : http://localhost/html/mozilor/public/
+
+
 
 
 
