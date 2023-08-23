@@ -17,7 +17,7 @@ Database name : mozilor
 
 After taking the pull, please run the following commands
 - php artisan migrate
-- composer install
+- composer install (package used for csv import is maatwebsite/excel)
 
 Project URL : http://localhost/html/mozilor/public/
 
